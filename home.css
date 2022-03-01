@@ -1,0 +1,31 @@
+body {
+  background-color: #23272a;
+}
+#nav {
+  list-style-type: circle;
+  color: #d9d4c7;
+}
+#home-nav {
+  color: #FFFDD0;
+  text-decoration: none;
+}
+#home-nav:visited {
+  color: #FFFDD0;
+  text-decoration: none;
+}
+#home-nav:hover {
+  cursor: pointer;
+  color: #a69f9f;
+}
+#project-nav {
+  color: #FFFDD0;
+  text-decoration: none;
+}
+#project-nav:visited {
+  color: #FFFDD0;
+  text-decoration: none;
+}
+#project-nav:hover {
+  cursor: pointer;
+  color: #a69f9f;
+}
