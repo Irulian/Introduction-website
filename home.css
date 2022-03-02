@@ -3,7 +3,18 @@ body {
 }
 #nav {
   list-style-type: none;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+li {
   display: inline;
+  float: left;
+  background-color: #18191A;
+}
+a {
+  display: block;
+  padding: 8px;
 }
 #home-nav {
   color: #FFFDD0;
@@ -17,9 +28,6 @@ body {
 #home-nav:hover {
   cursor: pointer;
   color: #a69f9f;
-}
-#home-nav.active {
-  color:green;
 }
 #project-nav {
   color: #FFFDD0;
@@ -38,4 +46,7 @@ body {
   color: white;
   text-align: center;
   position: relative;
+}
+.active {
+  color: green;
 }
