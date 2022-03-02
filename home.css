@@ -14,7 +14,6 @@ body {
 }
 li {
   display: inline;
-  float: left;
 }
 a {
   display: block;
@@ -25,6 +24,7 @@ a {
   text-decoration: none;
   position: sticky;
   border-right: 1px solid grey;
+  float: left;
 }
 #home-nav:visited {
   color: #FFFDD0;
@@ -39,6 +39,7 @@ a {
   text-decoration: none;
   position: sticky;
   border-right: 1px solid grey;
+  float: left;
 }
 #project-nav:visited {
   color: #FFFDD0;
@@ -48,8 +49,57 @@ a {
   cursor: pointer;
   color: #a69f9f;
 }
+#contact-nav {
+  color: #FFFDD0;
+  text-decoration: none;
+  position: sticky;
+  border-right: 1px solid grey;
+  float: left;
+}
+#contact-nav:visited {
+  color: #FFFDD0;
+  text-decoration: none;
+}
+#contact-nav:hover {
+  cursor: pointer;
+  color: #a69f9f;
+}
+#links-nav {
+  color: #FFFDD0;
+  text-decoration: none;
+  position: sticky;
+  border-left: 1px solid grey;
+  float: right;
+}
+#links-nav:visited {
+  color: #FFFDD0;
+  text-decoration: none;
+}
+#links-nav:hover {
+  cursor: pointer;
+  color: #a69f9f;
+}
 #header {
   color: white;
   text-align: center;
   font-size: 30px;
+}
+#paragraph-div {
+  width: 600px;
+  margin: auto;
+}
+#paragraph-1 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+#paragraph-2 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+#paragraph-3 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
 }
