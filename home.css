@@ -1,5 +1,6 @@
 body {
   background-color: #23272a;
+  font-family: monospace;
 }
 #nav {
   list-style-type: none;
@@ -50,5 +51,5 @@ a {
 #header {
   color: white;
   text-align: center;
-  position: relative;
+  font-size: 30px;
 }
