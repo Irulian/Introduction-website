@@ -18,7 +18,7 @@ body {
   cursor: pointer;
   color: #a69f9f;
 }
-#home-nav:active {
+#home-nav.active {
   color:green;
 }
 #project-nav {
