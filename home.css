@@ -2,12 +2,13 @@ body {
   background-color: #23272a;
 }
 #nav {
-  list-style-type: circle;
-  color: #d9d4c7;
+  list-style-type: none;
+  display: inline;
 }
 #home-nav {
   color: #FFFDD0;
   text-decoration: none;
+  position: sticky;
 }
 #home-nav:visited {
   color: #FFFDD0;
@@ -17,9 +18,13 @@ body {
   cursor: pointer;
   color: #a69f9f;
 }
+#home-nav:active {
+  color:green;
+}
 #project-nav {
   color: #FFFDD0;
   text-decoration: none;
+  position: sticky;
 }
 #project-nav:visited {
   color: #FFFDD0;
@@ -28,4 +33,9 @@ body {
 #project-nav:hover {
   cursor: pointer;
   color: #a69f9f;
+}
+#header {
+  color: white;
+  text-align: center;
+  position: relative;
 }
