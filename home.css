@@ -6,11 +6,14 @@ body {
   overflow: hidden;
   margin: 0px;
   padding: 0px;
+  position: sticky;
+  top: 0px;
+  background-color: #18191A;
+  font-size: 20px;
 }
 li {
   display: inline;
   float: left;
-  background-color: #18191A;
 }
 a {
   display: block;
@@ -20,6 +23,7 @@ a {
   color: #FFFDD0;
   text-decoration: none;
   position: sticky;
+  border-right: 1px solid grey;
 }
 #home-nav:visited {
   color: #FFFDD0;
@@ -33,6 +37,7 @@ a {
   color: #FFFDD0;
   text-decoration: none;
   position: sticky;
+  border-right: 1px solid grey;
 }
 #project-nav:visited {
   color: #FFFDD0;
@@ -46,7 +51,4 @@ a {
   color: white;
   text-align: center;
   position: relative;
-}
-.active {
-  color: green;
 }
