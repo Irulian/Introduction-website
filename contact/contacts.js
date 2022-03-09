@@ -1,3 +1,3 @@
 window.onbeforeunload = function () {
-  prompt("balls");
+  return true;
 };
