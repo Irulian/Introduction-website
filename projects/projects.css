@@ -88,8 +88,16 @@ a {
   width: 600px;
   margin: auto;
 }
-#paragraph-1 {
+#bookmarklets {
   text-align: center;
   color: white;
   font-size: 15px;
+}
+#bookmarklets-link {
+  text-decoration: none;
+  color: #FFFDD0;
+}
+#bookmarklets-link:hover {
+  text-decoration: none;
+  color: #a69f9f;
 }
