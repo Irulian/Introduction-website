@@ -17,7 +17,7 @@ hr {
   text-align: center;
   width: 600px;
   margin: auto;
-  height: 180px;
+  height: 205px;
 }
 #history-heading {
   color: #FFFDD0;
@@ -30,13 +30,23 @@ hr {
   color: #FF9001;
   text-decoration: none;
 }
+#history-button {
+  background-color: #FF9001;
+  border: none;
+  border-radius: 8px;
+}
+#history-drag {
+  color: #FFFDD0;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 15px;
+}
 #history-code {
   color: #FF9001;
-  cursor: pointer;
   text-decoration: none;
 }
 #ad-div {
-  height: 180px;
+  height: 205px;
   width: 600px;
   overflow: scroll;
   text-align: center;
@@ -55,9 +65,17 @@ hr {
 #ad-desc{
   color: #FFFDD0;
 }
-#ad-code {
-  text-align: center;
-  color: #FF9001;
-  cursor: pointer;
+#ad-button {
+  background-color: #FF9001;
+  border: none;
+  border-radius: 8px;
+}
+#ad-drag {
+  color: #FFFDD0;
   text-decoration: none;
+  font-family: monospace;
+  font-size: 15px;
+}
+#ad-rmv-code {
+  color: #FF9001;
 }
