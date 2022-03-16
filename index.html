@@ -14,7 +14,7 @@
     <div id='history-div'>
 	    <p id='history-heading'>History Flooder</p>
       <p id='history-desc'>Flood your history as many times as you want, you could even do 1,000,000. Made by Veracity - Owner of <a href='https://discord.gg/GJbXzmAyUq' id='utopia-link'>Utopia</a>.</p>
-	    <button id='history-button'><a href=`javascript:var num=prompt("History flood amount:");done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert("History flood successful! "+window.location.href+" now appears in your history "+num+(num==1?" time.":" times. (Made by Utopia Unblocker)"))}` id='history-drag'>Drag To Bookmarks Bar</a></button>
+	    <button id='history-button'><a id='history-drag'>Drag To Bookmarks Bar</a></button>
       <p id='history-code'>javascript:var num=prompt("History flood amount: "); done = false; x = window.location.href; for (var i=1; i<=num; i++) {history.pushState(0, 0, i==num?x:i.toString()); if(i==num){done=true}}if(done===true){alert("History flood successful! "+window.location.href+" now appears in your history "+num+(num==1?" time.":" times. (Made by Utopia Unblocker)"))}</p>
       <hr>
     </div>
